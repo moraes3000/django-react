@@ -1,0 +1,1 @@
+# Frontende da apliacaçao django
