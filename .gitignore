@@ -3,8 +3,10 @@
 virtual
 myvenv
 venv
+
 *.sqlite3
 *pyc
 media
 __pycache__
 staticfiles
+/venv/
