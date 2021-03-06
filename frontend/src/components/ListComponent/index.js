@@ -2,11 +2,15 @@ import React from 'react'
 import './estilo.css'
 import ItemComponente from '../ItemComponent'
 
-export default  function ListComponent(){
-    return(
-        <ul>
-            <ItemComponente name={'meu item'}/>
+export default function ListComponent(props) {
+    return (
+        <div>
+            <h2>{props.listName}</h2>
 
-        </ul>
+            <ul>
+                <ItemComponente name={'meu item'}/>
+
+            </ul>
+        </div>
     )
 }
