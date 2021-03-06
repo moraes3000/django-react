@@ -2,6 +2,7 @@
 .idea
 virtual
 myvenv
+venv
 *.sqlite3
 *pyc
 media
